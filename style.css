@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.topar{
+    width: 100%;
+    height: 70px;
+   background: whitesmoke;
+    display: flex;
+}
+.topar_colection{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 230px;
+    font-size: 13px;
+
+}
+.serach_forim{
+    width: 200px;
+     height: 35px;
+      padding: 10px;
+      background: white;
+      border-radius:10px ;
+}
+
+.fa-solid {
+    color: rgb(115, 113, 113);
+    
+}
+.serach_fori{
+    border: none;
+    outline: none;
+}
+.topar_item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.fa-brands{
+    color:rgb(115, 133, 133) ;
+    font-size: 13px;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    background: #fff;
+    color: #000;
+    position: relative;
+    display: flex;
+    padding: 0 10%;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar img{
+    width: 80px;
+    
+}
+.nav__collection{
+    font-family: sans-serif;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    font-size: 13px;
+}
+.doira_itm{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.doira{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border:1px solid black ;
+}
+.doira,fa-eye{
+    padding-top: 12px;
+    padding-left: 12px;
+  
+}
+.nav__menu{
+    display: none;
+   
+}
+.nav__menu span{
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: rgb(159, 157, 157);
+    margin-top: 3px;
+    border-radius: 10px;
+}
+.foto__img{
+    
+    height: 550px;
+    background: url("/img/winter-malibu.jpg") no-repeat center/cover;
+}
+.h1_songgi{
+   text-align: center;
+   color:  #324545;
+   font-size: 30px;
+}
+.main_ramlar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.main_rasm{
+    width:350px;
+    height: 480px;
+    border:2px solid whitesmoke;
+    color:rgb(115, 133, 133);
+    border-radius: 5px;
+    
+}
+
+.main_rasm img{
+    width: 350px;
+    height: 300px;
+    
+
+}
+.sapn_item{
+    display: flex;
+    gap: 30px;
+    font-size: 13px;
+    padding-left: 10px;
+    color: #324545;
+}
+.sapn_item span{
+    color: #716c6c;
+}
+.main_rasm p{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.btn button{
+    border: none;
+    background: darkorchid;
+    color: #fff;
+    border-radius: 7px;
+   padding: 7px;
+}
+.video_col video{
+    width: 100%;
+}
+.main_collection{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 20px;
+}
+.main__item{
+    width: 320px;
+    height: 300px;
+    background: url("/img/play.jpg") no-repeat center/cover;
+    border-radius: 20px;
+}
+.main__itme_foto{
+    background: url("/img/play.jpg") no-repeat center/cover;
+}
+.main_item{
+    background: url("/img/play.jpg") no-repeat center/cover;
+}
+.main__item p{
+     color: #fff;
+     font-size: 16px;
+     padding-top: 80%;
+     padding-left: 10px;
+}
+.kotta_moshina{
+    display: flex;
+     gap: 20px;
+    padding-left: 200px;
+    padding-top: 150px;
+   
+}
+.text_moshina{
+    color: #000;
+    
+}
+
+
+.rasm_moshina{
+    width: 500px;
+    height: 400px;
+    background: url("/img/cobalt.jpg") no-repeat center/cover;
+}
+.footr{
+    width: 100%;
+    height: 290px;
+    background: #242424;
+    display: flex;
+   gap: 100px;
+   padding-top: 40px;   
+   
+}
+.footr_col{
+    display: flex;
+    color: #fff;
+    padding-left: 200px;
+    gap: 150px;
+    font-size: 14px;
+
+}
+.footr__item p{
+    line-height:2.5;
+}
+.footr_itemlar{
+    display: flex;
+    gap: 50px;
+    color: #fff;
+    font-size: 15px;
+}
+.footr__itm{
+    list-style: 2;
+
+}
+.footr_itemlar p{
+    color: #716c6c;
+    line-height: 2;
+}
+
+
+.fotr_collection{
+    width: 100%;
+    height: 90px;
+    background: #1c1b1b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(80, 72, 72);
+    padding-left:60px;
+   font-size: 12px;
+    gap: 120px;
+}
+.colection_footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.colection_footer img{
+    
+    height: 25px;
+}

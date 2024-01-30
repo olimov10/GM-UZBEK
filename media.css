@@ -1,0 +1,334 @@
+@media screen and (max-width:1280px){
+    .topar_colection{
+        padding: 0 110px;
+    }
+   
+    .nav__collection{
+        font-size: 10px;
+    }
+    .foto__img{
+        width: 100%;
+    }
+    .main_ramlar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .kotta_moshina{
+        padding-left: 80px;
+     
+    }
+    .footr_col{
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .topar{
+        display: none;
+    }
+    .nav__collection{
+        display: none;
+    }
+    
+    .nav__menu{
+        display: block;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .foto__img{
+        width: auto;
+    }
+    .main_ramlar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .doira{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .doira,fa-eye{
+        padding-top: 6px;
+        padding-left: 6px;
+      
+    }
+    .foto__img{
+        height: 250px;
+     
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .kotta_moshina{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 220px;
+    }
+}
+@media screen and (max-width:990px){
+    .kotta_moshina{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 150px;
+    }
+    .footr{
+        height: auto;
+        background: #242424;
+        font-size: 5px;
+        display: flex;
+        gap: 30px;
+     }
+     .footr_col{
+        display: flex;
+        gap: 50px;
+        margin-left: 10px;
+    }
+    .fotr_collection{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 70px;
+    }
+    .colection_footer img{
+        height: 20px;
+    }
+}
+@media screen and (max-width:900px) {
+    .topar{
+        display: none;
+    }
+    .nav__collection{
+        display: none;
+    }
+    
+    .nav__menu{
+        display: block;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    .foto__img{
+      height: 300px;
+    }
+    .main_ramlar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .doira{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .doira,fa-eye{
+        padding-top: 6px;
+        padding-left: 6px;
+      
+    }
+    .main_collection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .kotta_moshina{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 110px
+    }
+    .footr{
+       height: auto;
+       background: #242424;
+       font-size: 5px;
+       display: flex;
+       gap: 30px;
+    }
+    .footr_col{
+        display: flex;
+        gap: 50px;
+        padding-left: 10px;
+    }
+    .footr_itemlar{
+        display: flex;
+        gap: 20px;
+        line-height: 1;
+        padding-left: 10px;
+    }
+    .fotr_collection{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .main_ramlar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .doira{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .doira,fa-eye{
+        padding-top: 6px;
+        padding-left: 6px;
+      
+    }
+    .foto__img{
+        height: 200px;
+    }
+    .main_collection{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .kotta_moshina{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px
+    }
+   
+    .footr{
+        height:auto; 
+        background-color: #242424;
+        padding-top: 10px;
+       font-size: 5px;
+       display: flex;
+       flex-wrap: wrap;
+    }
+    .fotr_collection{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    
+}
+@media screen and (width:550px){
+    .footr_col{
+        display: flex;
+        gap: 150px;
+        padding-left: 10px;
+    }
+
+    .fotr_collection{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media screen and (width:540px){
+    .footr_col{
+        display: flex;
+        gap: 150px;
+        padding-left: 10px;
+    }
+    .fotr_collection{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .main_ramlar{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .doira{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+    .doira,fa-eye{
+        padding-top: 6px;
+        padding-left: 6px;
+      
+    }
+    .foto__img{
+        height: 150px;
+    }
+    .h1_songgi{
+        font-size: 20px;
+    }
+    .main_collection{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .kotta_moshina{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 10px
+    }
+    .rasm_moshina{
+        width: 320px;
+        height: 250px;
+
+    }   
+    .footr_col{
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+        padding-left: 10px;
+    }
+    .fotr_collection{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 20px;
+        gap: 15px;
+    } 
+}
+@media screen and (width:430px){
+    .footr_col{
+        display: flex;
+        justify-content: center;
+        gap: 500px;
+        padding-left: 10px;
+    }
+    .fotr_collection{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (max-width:400px){
+    
+    .footr_col{
+        display: flex;
+        padding-left: -50px;
+        gap: 60px;
+    } 
+    .fotr_collection{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 15px;
+        gap: 10px;
+        font-size: 10px;
+    }
+   
+
+}
+@media screen and (max-width:360px){
+    .footr_col{
+        display: flex;
+        padding-left: -50px;
+        gap: 45px;
+    } 
+    .fotr_collection{
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+}
